@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#210d20">
+  <meta name="description" content="Celebrating four years of Mukila and Marimuthu — and all the love still to come.">
+  <title>Four Years, Forever to Go — Mukila &amp; Marimuthu</title>
+  <link rel="stylesheet" href="css/love.css">
+  <script src="js/love.js" defer></script>
+</head>
+<body class="love-page">
+  <canvas class="heart-canvas" id="heart-canvas" aria-hidden="true"></canvas>
+  <div class="site-grain" aria-hidden="true"></div>
+  <div class="petal-layer" id="petal-layer" aria-hidden="true"></div>
+  <section class="cinematic-intro" id="cinematic-intro" aria-label="Anniversary surprise introduction">
+    <canvas class="intro-canvas" id="intro-canvas" aria-hidden="true"></canvas>
+    <div class="intro-content" id="intro-content">
+      <p class="intro-prelude">For the two hearts that became one</p>
+      <div class="intro-heart" aria-hidden="true"><span>♥</span></div>
+      <p class="intro-story">A Beautiful Love Story Began...</p>
+      <p class="intro-date">31 October 2022</p>
+      <p class="intro-couple">Mukila <span>♥</span> Marimuthu</p>
+      <h1>Happy 4th Wedding Anniversary!</h1>
+      <button class="intro-continue" id="intro-continue" type="button">Enter your forever <span aria-hidden="true">♡</span></button>
+    </div>
+    <button class="skip-intro" id="skip-intro" type="button">Skip intro <span aria-hidden="true">→</span></button>
+  </section>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Forever and Always, go to top"><span>♡</span> FOREVER &amp; ALWAYS</a>
+    <nav aria-label="Main navigation">
+      <a href="#story">Our story</a><a href="#gallery">Gallery</a><a href="#letter">A letter</a>
+    </nav>
+    <button class="music-button" id="music-toggle" type="button" aria-pressed="false" aria-label="Play anniversary music">
+      <span class="music-icon" aria-hidden="true">♫</span><span id="music-label">Play music</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-kicker"><span></span> 31 · 10 · 2026 <span></span></p>
+        <div class="hero-heart" aria-hidden="true"><span>♥</span><i>♥</i></div>
+        <p class="hero-small">A celebration of the most beautiful kind of forever</p>
+        <h1 id="hero-title">Happy <span>4th</span><br>Wedding Anniversary</h1>
+        <div class="couple-names">Mukila <span aria-label="and">♥</span> Marimuthu</div>
+        <p class="hero-tagline">Four Years Down, Forever To Go</p>
+        <a class="discover-link" href="#story"><span>Discover your story</span><i aria-hidden="true">↓</i></a>
+      </div>
+      <div class="hero-bottom-note">A love that keeps becoming</div>
+      <div class="hero-index" aria-hidden="true">MM · MMXXVI</div>
+    </section>
+
+    <section class="duration-section" aria-labelledby="duration-title">
+      <div class="section-heading">
+        <p class="eyebrow">Every second, a little more</p>
+        <h2 id="duration-title">Your love, in <em>every moment</em></h2>
+        <p>Since the day your forever began</p>
+      </div>
+      <div class="counter" id="love-counter" aria-label="Time since October 31, 2022">
+        <div class="counter-unit"><strong data-time="years">—</strong><span>Years</span></div><i>:</i>
+        <div class="counter-unit"><strong data-time="days">—</strong><span>Days</span></div><i>:</i>
+        <div class="counter-unit"><strong data-time="hours">—</strong><span>Hours</span></div><i>:</i>
+        <div class="counter-unit"><strong data-time="minutes">—</strong><span>Minutes</span></div><i>:</i>
+        <div class="counter-unit"><strong data-time="seconds">—</strong><span>Seconds</span></div>
+      </div>
+      <p class="counter-caption">Since October 31, 2022 <span>·</span> and counting</p>
+    </section>
+
+    <section class="story-section section-pad" id="story" aria-labelledby="story-title">
+      <div class="section-heading">
+        <p class="eyebrow">The beginning of always</p>
+        <h2 id="story-title">Four years of <em>choosing us</em></h2>
+        <p>One beautiful beginning. A lifetime still unfolding.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-line" aria-hidden="true"></div>
+        <article class="timeline-item reveal"><div class="timeline-dot">♡</div><div class="timeline-card"><span class="timeline-year">2022</span><h3>The day forever began</h3><p>October 31 · Two lives, one promise, and a brand-new story.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot">✦</div><div class="timeline-card"><span class="timeline-year">2023</span><h3>One year of us</h3><p>A first anniversary, and a thousand reasons to keep choosing each other.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot">♡</div><div class="timeline-card"><span class="timeline-year">2024</span><h3>Love, growing deeper</h3><p>Another year together, making a home in the little moments.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot">✧</div><div class="timeline-card"><span class="timeline-year">2025</span><h3>Still side by side</h3><p>Three years in, with your best chapters still ahead.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot">♥</div><div class="timeline-card"><span class="timeline-year">2026</span><h3>Four years, forever to go</h3><p>Today, tomorrow, and every day you get to call each other yours.</p></div></article>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading">
+        <p class="eyebrow">Little frames, endless feeling</p>
+        <h2 id="gallery-title">A gallery of <em>always</em></h2>
+        <p>Replace these keepsake illustrations with six of your favourite photographs.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-card reveal"><img src="assets/images/moment-01.jpg.jpg" alt="Illustrated placeholder for a favourite wedding-day photograph"><figcaption><span>01</span> The beginning</figcaption></figure>
+        <figure class="gallery-card reveal"><img src="assets/images/moment-02.jpg.jpg" alt="Illustrated placeholder for a favourite together photograph"><figcaption><span>02</span>  My favourite view</figcaption></figure>
+        <figure class="gallery-card reveal"><img src="assets/images/moment-03.jpg.jpg" alt="Illustrated placeholder for a favourite celebration photograph"><figcaption><span>03</span> To be continued</figcaption></figure>
+       <!-- <figure class="gallery-card reveal"><img src="assets/images/moment-04.svg" alt="Illustrated placeholder for a favourite anniversary photograph"><figcaption><span>04</span> Little moments</figcaption></figure>
+        <figure class="gallery-card reveal"><img src="assets/images/moment-05.svg" alt="Illustrated placeholder for a favourite portrait photograph"><figcaption><span>05</span> My favourite view</figcaption></figure>
+        <figure class="gallery-card reveal"><img src="assets/images/moment-06.svg" alt="Illustrated placeholder for a favourite memory photograph"><figcaption><span>06</span> To be continued</figcaption></figure>
+      -->
+    </div>
+    </section>
+
+    <section class="quotes-section section-pad" aria-labelledby="quotes-title">
+      <div class="section-heading">
+        <p class="eyebrow">A few words for your forever</p>
+        <h2 id="quotes-title">Love, <em>in little notes</em></h2>
+        <p>Tap a card to turn it over.</p>
+      </div>
+      <div class="quote-grid">
+        <button class="quote-card reveal" type="button" aria-pressed="false"><span class="quote-inner"><span class="quote-front"><i>♡</i><b>01</b><small>TURN FOR A THOUGHT</small></span><span class="quote-back">“The best part of every day is knowing it ends with us.”</span></span></button>
+        <button class="quote-card reveal" type="button" aria-pressed="false"><span class="quote-inner"><span class="quote-front"><i>✧</i><b>02</b><small>TURN FOR A THOUGHT</small></span><span class="quote-back">“Four years in, and my favourite place is still beside you.”</span></span></button>
+        <button class="quote-card reveal" type="button" aria-pressed="false"><span class="quote-inner"><span class="quote-front"><i>♥</i><b>03</b><small>TURN FOR A THOUGHT</small></span><span class="quote-back">“Here’s to every ordinary day made golden by your love.”</span></span></button>
+      </div>
+    </section>
+
+    <section class="letter-section section-pad" id="letter" aria-labelledby="letter-title">
+      <div class="letter-intro">
+        <p class="eyebrow">A note, sealed with love</p>
+        <h2 id="letter-title">Something from <em>the heart</em></h2>
+        <p>There are words that deserve their own little moment.</p>
+      </div>
+      <button class="envelope-button" id="letter-toggle" type="button" aria-expanded="false" aria-controls="love-letter">
+        <span class="envelope" aria-hidden="true"><span class="envelope-flap"></span><span class="envelope-heart">♥</span></span>
+        <span class="envelope-prompt" id="letter-prompt">Open your letter</span>
+      </button>
+      <article class="love-letter" id="love-letter" hidden>
+        <p class="letter-salutation">To my favourite person,</p>
+        <p>Four years ago, we promised to walk through life together. Today, I’m celebrating that promise, the love we share, and every new day still waiting for us.</p>
+        <p>May we keep finding magic in the ordinary, laughter in the little things, and home in each other. Whatever comes next, I’m grateful it’s ours to discover together.</p>
+        <p class="letter-signoff">All my love, always <span>♡</span></p>
+      </article>
+    </section>
+
+    <section class="surprise-section section-pad" aria-labelledby="surprise-title">
+      <p class="eyebrow">One last little surprise</p>
+      <h2 id="surprise-title">A gift for <em>your forever</em></h2>
+      <p class="surprise-copy">Some presents are better when you open them together.</p>
+      <button class="gift-button" id="gift-button" type="button" aria-label="Open your anniversary surprise">
+        <span class="gift-box" aria-hidden="true"><span class="gift-lid"></span><span class="gift-ribbon"></span><span class="gift-bow"></span></span>
+        <span class="gift-label">Open your surprise</span>
+      </button>
+      <p class="gift-message" id="gift-message" role="status" aria-live="polite" hidden>Here’s to the love you’ve built, the life you share, and every forever still to come. Happy anniversary, Mukila &amp; Marimuthu! <span>♡</span></p>
+      <div class="celebration-layer" id="celebration-layer" aria-hidden="true"></div>
+    </section>
+
+    <section class="extra-surprises" aria-label="More anniversary surprises">
+      <p class="eyebrow">Let a little magic find you</p>
+      <div class="surprise-actions">
+        <button class="magic-button" id="heart-rain-button" type="button"><span aria-hidden="true">♡</span> Make it rain love</button>
+        <button class="magic-button magic-button-gold" id="finale-button" type="button"><span aria-hidden="true">✦</span> One last surprise</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-mark" href="#home" aria-label="Back to the beginning">♡</a>
+    <p>Four years down. Forever to go.</p>
+    <p class="footer-names">Mukila <span>♥</span> Marimuthu</p>
+    <small>Made with love · October 31, 2026</small>
+  </footer>
+  <audio id="anniversary-audio" src="assets/music/our-song.mp3" preload="none" loop></audio>
+  <section class="heart-rain-overlay" id="heart-rain-overlay" aria-hidden="true" aria-label="A shower of love">
+    <canvas id="rain-canvas" aria-hidden="true"></canvas>
+    <div class="rain-message"><span>♡</span><p>A little rain of love,<br><em>for your forever.</em></p></div>
+    <button class="overlay-close" id="rain-close" type="button">Close <span aria-hidden="true">×</span></button>
+  </section>
+  <section class="finale-overlay" id="finale-overlay" aria-hidden="true" aria-label="Final anniversary surprise">
+    <canvas id="finale-canvas" aria-hidden="true"></canvas>
+    <div class="finale-content">
+      <p class="eyebrow">For today, for tomorrow, for always</p>
+      <div class="finale-heart" aria-hidden="true">♥</div>
+      <h2>May your love keep<br><em>lighting up the sky.</em></h2>
+      <p>Mukila &amp; Marimuthu — four years cherished,<br>and a lifetime of beautiful days still to come.</p>
+      <div class="finale-controls">
+        <button class="magic-button" id="replay-finale" type="button">↻ Replay wishes</button>
+        <button class="magic-button magic-button-gold" id="finale-close" type="button">Close <span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </section>
+  <dialog class="lightbox" id="gallery-lightbox" aria-label="Photo viewer">
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close photo viewer">×</button>
+    <button class="lightbox-arrow lightbox-prev" id="lightbox-prev" type="button" aria-label="Previous photo">‹</button>
+    <figure><img id="lightbox-image" alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+    <button class="lightbox-arrow lightbox-next" id="lightbox-next" type="button" aria-label="Next photo">›</button>
+  </dialog>
+</body>
+</html>

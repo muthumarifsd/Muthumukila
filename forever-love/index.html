@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#260d22">
+  <meta name="description" content="A little doorway into Mukila and Marimuthu's forever story.">
+  <title>Forever &amp; Always — Unlock Our Forever Love</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/login.js" defer></script>
+</head>
+<body class="login-page">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="particle-field" id="particle-field" aria-hidden="true"></div>
+
+  <main class="login-shell">
+    <a class="wordmark" href="index.html" aria-label="Forever and Always home">
+      <span class="wordmark-mark" aria-hidden="true">♡</span>
+      <span>FOREVER <i>&amp;</i> ALWAYS</span>
+    </a>
+
+    <section class="login-card" aria-labelledby="page-title">
+      <div class="card-flourish" aria-hidden="true">✦ &nbsp; ♡ &nbsp; ✦</div>
+      <p class="eyebrow">A little surprise, made with love</p>
+      <h1 id="page-title">Unlock Our<br><em>Forever Love</em></h1>
+      <p class="login-intro">Some stories are too beautiful to keep in a box.<br>Enter the key to yours.</p>
+
+      <form id="login-form" novalidate>
+        <label for="username">Your name</label>
+        <div class="input-wrap">
+          <span class="input-icon" aria-hidden="true">♡</span>
+          <input id="username" name="username" type="text" placeholder="Mukila or Marimuthu" autocomplete="username" aria-describedby="form-message" required>
+        </div>
+
+        <label for="password">Your special date</label>
+        <div class="input-wrap password-wrap">
+          <span class="input-icon" aria-hidden="true">✧</span>
+          <input id="password" name="password" type="password" placeholder="DD-MM-YYYY" autocomplete="current-password" aria-describedby="form-message" required>
+          <button class="show-password" id="toggle-password" type="button" aria-label="Show password" aria-pressed="false">Show</button>
+        </div>
+
+        <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        <button class="unlock-button" type="submit">
+          <span>Open our story</span><span class="button-heart" aria-hidden="true">♡</span>
+        </button>
+      </form>
+
+      <p class="hint">A hint from the heart: your wedding date</p>
+      <div class="anniversary-seal" aria-label="Celebrating four years together">
+        <span>31 OCTOBER</span><strong>4</strong><span>YEARS OF US</span>
+      </div>
+    </section>
+    <footer class="login-footer">Created for Mukila <span aria-hidden="true">♥</span> Marimuthu · 31 October 2026</footer>
+  </main>
+  <div class="transition-overlay" id="transition-overlay" aria-hidden="true"></div>
+</body>
+</html>
